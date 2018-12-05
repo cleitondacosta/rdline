@@ -1,0 +1,74 @@
+04/02/2018 (0.1b):
+
+    [COMPLETE - 05/02/2018]
+    First steps:
+        - Create function to read a line 
+        - Create function to get the total number of lines
+        - Create function to split a string into a string vector
+        + Option -l works (without range numbers)
+        + Option -e works (without range numbers)
+
+    [COMPLETE - 05/02/2018 - 22:09]
+    Then:
+        - Update to version 0.2b
+        - Upload to cloud.
+
+05/02/2018 (0.2b):
+
+    [COMPLETE - 05/02/2018 - 22:26]
+    Errors:
+        - Create better error messages
+
+    [COMPLETE - 06/02/2018 - 19:46]
+    Check:
+        - getline()'s man page. Handle errno if needed
+        + getline's errno handled
+
+    [COMPLETE - 05/02/2018 - 21:54]
+    Add:
+        - Make option -l and -e works with range numbers
+        - Make option -e calculate the highest number of lnum to check line
+          existence
+        + -e option removed (it's useless)
+        + Added the header rdprint
+
+    [COMPLETE - 06/02/2018]
+    Then:
+        - Update to version 0.3b
+        - Upload to cloud.
+
+06/02/2018 (0.3b):
+
+    [COMPLETE - 06/02/2018]
+    Add:
+        - Message for --help
+        - Message for --version
+        - Check if FILE... is a regular file before continue
+
+    + Added function to show error according to errno.
+
+    Check:
+        - Grammar erros
+        + Probably they still exists
+
+    Then:
+        - Upload to cloud.
+
+07/02/2018 (0.3b):
+
+    [COMPLETE - 07/02/2018]
+    Test:
+        - Everything. (impossible)
+        + Bug fix, using free().
+
+    [COMPLETE - 07/02/2018]
+    Remove:
+        - vim swap files
+
+    [COMPLETE - 10/02/2018]
+    Write:
+        - README.md
+
+    [COMPLETE - 07/02/2018]
+    Search about:
+        - License
